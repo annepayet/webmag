@@ -1,0 +1,88 @@
+/* Général */
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+h2 {
+  color: #02BDA9;
+}
+
+/* Menu */
+
+nav ul li a.uppercarse {
+  text-transform: uppercase !important;
+}
+
+.grayDark {
+  background: #333333;
+}
+
+.searchGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0;
+  border-bottom: 1px solid #fff;
+}
+
+.mySearch {
+  background-color: transparent;
+  border: none;
+}
+
+/* réseau */
+.headerStyle {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  gap: 3rem;
+  border-bottom: 2px solid #02BDA9;
+}
+
+.reseau {
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  position: fixed;
+  left: 0;
+  top: 50%;
+  gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  transform: translateY(-50%);
+  max-width: 30px;
+  background-color: black;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  width: 150%;
+  height: 100%;
+  transform: translatex(10%);
+}
+
+.logo img {
+  border: 2px solid #02BDA9;
+  border-radius: 100%;
+}
